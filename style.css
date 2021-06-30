@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 850px;
+    margin: 0 auto;
+    background: red;
+    overflow: hidden;
+    height: 60px;
+    background: blueviolet;
+}
+
+.logo {
+    width: 150px;
+    text-align: center;
+    Float: left;
+    line-height: 60px;
+}
+
+.site_menu {
+    width: 700px;
+    float: right;
+}
+
+.site_menu ul li {
+    float: left;
+    margin: 10px;
+    line-height: 40px;
+    list-style: none;
+}
+
+.site_menu ul li a {
+    color: white;
+    text-decoration: none;
+    background: black;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.logo span {
+    color: yellow;
+    font-size: 22px
+}
+
+.background_image {
+    margin: auto;
+    width: 850Px;
+}
+
+.background_image {
+    background: url(1234.jpg);
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.background_title {
+    text-align: center;
+    margin-top: 50px;
+    color: red;
+    font-size: 25;
+}
+
+.profile_pic {
+    width: 200px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.profile_pic img {
+    border-radius: 50%;
+    border: 10px solid red;
+}
+
+.profile_icon {
+    text-align: center;
+    padding: 10px 40px;
+}
+
+.profile_icon i {
+    background: yellowgreen;
+    padding: 20px 20px;
+    margin-left: 30px;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+}
+
+.profile_icon i {
+    background: yellowgreen;
+    padding: 20px 20px;
+    margin-left: 10px;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+}
+
+.profile_icon i:hover {
+    Background: white;
+    color: black;
+    transition: 2px;
+}
